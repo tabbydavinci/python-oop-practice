@@ -1,0 +1,30 @@
+[project]
+name = "python-oop-practice"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.1",
+]
+
+[tool.uv.workspace]
+members = [
+    "1-basics-of-oop",
+    "2-class-variables",
+    "3-inheritance",
+    "5-abstract-classes",
+    "6-super-method",
+    "7-polymorphism",
+    "8-duck-typing",
+    "9-aggregation",
+    "10-composition",
+    "11-nested-classes",
+    "12-static-methods",
+    "design-problem-mall-parking-lot",
+    "13-class-methods",
+    "14-magic-methods",
+    "str-vs-repr-dunder",
+    "15-property-decorator",
+    "most-useful-magic-methods",
+]
