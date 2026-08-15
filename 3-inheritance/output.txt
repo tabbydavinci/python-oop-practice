@@ -1,0 +1,7 @@
+Rocky is eating
+Rocky is sleeping
+Rocky says WOOF!
+
+Kitty is eating
+Kitty is sleeping
+Kitty says MEOW!
