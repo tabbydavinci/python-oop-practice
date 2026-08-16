@@ -6,4 +6,6 @@ In this repository I learnt several OOP concepts in Python topicwise. This READM
 
 3. Inheritance - In this example, I learnt that child classes can inherit attributes and methods from a parent class. The child classes not only retain the methods and attributes defined in the parent classes, but can also have their own methods and attributes and when their objects are created, they can use them.
 
+4. --
+   
 5. Abstract classes - I learnt how to define an abstract class by inheriting from ABC and using the @abstractmethod decorator for methods in it. The child classes must use all the abstract methods defined in the abstract class, otherwise it will give an error. It's basically meant to be used as a strict blueprint.
