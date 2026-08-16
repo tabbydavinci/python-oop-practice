@@ -5,3 +5,5 @@ In this repository I learnt several OOP concepts in Python topicwise. This READM
 2. Class variables - In this example I understood class variables which are attributes common to all instances of this class such as school_name for a Student class. It's also easy to use the class variables inside of a an instance method for example to increment the class variable of num_of_students.
 
 3. Inheritance - In this example, I learnt that child classes can inherit attributes and methods from a parent class. The child classes not only retain the methods and attributes defined in the parent classes, but can also have their own methods and attributes and when their objects are created, they can use them.
+
+5. Abstract classes - I learnt how to define an abstract class by inheriting from ABC and using the @abstractmethod decorator for methods in it. The child classes must use all the abstract methods defined in the abstract class, otherwise it will give an error. It's basically meant to be used as a strict blueprint.
