@@ -1,0 +1,4 @@
+red Circle, fill True, 5 cm radius
+blue Circle, fill False, 9 cm radius
+blue Square, fill True, 10 cm side
+yellow Triangle, fill False, 18 cm base, 9 cm height
