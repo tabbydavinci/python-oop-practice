@@ -1,0 +1,3 @@
+Its alive state is True and it says BHOW!
+Its alive state is True and it says PURR!
+Its alive state is False and it says HONK HONK!
