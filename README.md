@@ -13,3 +13,5 @@
 6. The super() method - the super() method calls an attribute or a method of the parent class in its child class and runs it in-place. It is super-effective to bring in attributes and methods from a parent class in a child class for ease of access.
 
 7. Polymorphism - It is an object's ability to have multiple forms such as Pizza is a Circle so it is also a shape. Pizza inherits from Circle which was inheriting from Shape. Hence, methods defined in the Circle class like area can be used on the pizza as well to calculate its area given its radius.
+
+8. Duck typing - According to this concept, "if it walks like a duck, and quacks like a duck, it is a duck". It is another form of polymorphism where a class does not need to be inherited from another class but could still have the same attributes and methods.
