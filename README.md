@@ -15,3 +15,6 @@
 7. Polymorphism - It is an object's ability to have multiple forms such as Pizza is a Circle so it is also a shape. Pizza inherits from Circle which was inheriting from Shape. Hence, methods defined in the Circle class like area can be used on the pizza as well to calculate its area given its radius.
 
 8. Duck typing - According to this concept, "if it walks like a duck, and quacks like a duck, it is a duck". It is another form of polymorphism where a class does not need to be inherited from another class but could still have the same attributes and methods.
+
+9. Aggregation - From what I understood, it is when one object contains a reference to one or more independent objects and has a has-a relationship with them. Even if the container is deleted the objects would still exist individually.
+
