@@ -6,11 +6,11 @@
 
 3. Inheritance - In this example, I learnt that child classes can inherit attributes and methods from a parent class. The child classes not only retain the methods and attributes defined in the parent classes, but can also have their own methods and attributes and when their objects are created, they can use them.
 
-4. Pending multiple and multilevel inheritance
+4. Pending multiple and multilevel inheritance - the parents and grandparents example to be redone
    
 5. Abstract classes - I learnt how to define an abstract class by inheriting from ABC and using the @abstractmethod decorator for methods in it. The child classes must use all the abstract methods defined in the abstract class, otherwise it will give an error. It's basically meant to be used as a strict blueprint.
 
-6. The super() method - the super() method calls an attribute or a method of the parent class in its child class and runs it in-place. It is super-effective to bring in attributes and methods from a parent class in a child class for ease of access.
+6. The super() method - the super() method calls an attribute or a method of the parent class in its child class and runs it in-place. It is super-effective to bring in attributes and methods from a parent class in a child class for ease of access. - pending to add matplotlib graphs
 
 7. Polymorphism - It is an object's ability to have multiple forms such as Pizza is a Circle so it is also a shape. Pizza inherits from Circle which was inheriting from Shape. Hence, methods defined in the Circle class like area can be used on the pizza as well to calculate its area given its radius.
 
