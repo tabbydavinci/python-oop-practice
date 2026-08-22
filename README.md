@@ -16,5 +16,6 @@
 
 8. Duck typing - According to this concept, "if it walks like a duck, and quacks like a duck, it is a duck". It is another form of polymorphism where a class does not need to be inherited from another class but could still have the same attributes and methods.
 
-9. Aggregation - From what I understood, it is when one object contains a reference to one or more independent objects and has a has-a relationship with them. Even if the container is deleted the objects would still exist individually.
+9. Aggregation - From what I understood, it is when one object contains a reference to one or more independent objects and has a has-a relationship with them. Even if the container is deleted the objects would still exist individually because the references to those objects were passed from outside, unlike Composition.
 
+10. Composition - The composed object directly owns its component objects which cannot exist independent of composed object and has a owns-a relationship with them. If I were to delete the Car object then the engine, bodywork and wheels would also cease to exist because the Engine, Bodywork and Wheel objects are created inside the Car object rather than passed from outside.
