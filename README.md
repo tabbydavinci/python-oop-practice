@@ -19,3 +19,5 @@
 9. Aggregation - From what I understood, it is when one object contains a reference to one or more independent objects and has a has-a relationship with them. Even if the container is deleted the objects would still exist individually because the references to those objects were passed from outside, unlike Composition.
 
 10. Composition - The composed object directly owns its component objects which cannot exist independent of composed object and has a owns-a relationship with them. If I were to delete the Car object then the engine, bodywork and wheels would also cease to exist because the Engine, Bodywork and Wheel objects are created inside the Car object rather than passed from outside.
+
+11. Nested classes - Nested classes are used to logically group related classes while reducing the possibility of naming conflicts by keeping the namespace clean. Two classes named Employee would both run on import although they were meant to be different. Having one Employee class under a Company class, and the other under a Nonprofit class solves this problem.
